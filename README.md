@@ -5,4 +5,7 @@
 <h2>Data Preprocessing</h2>
 <p>To ensure the accuracy and reliability of the model, the raw EMG signals underwent several preprocessing steps:</p>
 <ul><b>Noise Removal</b><p>Unnecessary frequencies and noise were filtered out to enhance the quality of the signals.</p></ul>
-
+<ul><b>Normalization and Standardization</b><p>The EMG data was normalized and standardized to ensure consistent input to the machine learning models, improving the classification accuracy.</p></ul>
+<h2>Model Development</h2>
+<h3>Convolutional Neural Network (CNN)</h3>
+<p>A Convolutional Neural Network (CNN) was trained on the preprocessed EMG data to classify the signals into six action classes. The CNN architecture was chosen for its ability to capture spatial hierarchies and patterns within the signal data, leading to robust classification performance.</p>
